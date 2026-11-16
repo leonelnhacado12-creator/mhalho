@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Explore the MHALHO wig collection and visit our hair boutique at Nelson Mandela Square in Sandton.">
+<title>MHALHO | Wigs & Hair Extensions in Sandton</title>
+<link rel="icon" href="media/0.jpg"><link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<script src="shop.js" defer></script>
+</head>
+<body>
+<div class="strip"><a href="#visit">Find us at Nelson Mandela Square, Sandton <span aria-hidden="true">↗</span></a></div>
+<header><nav aria-label="Main navigation">
+<a href="#collection">The Collection</a><a href="#lookbook">Lookbook</a>
+<a class="wordmark" href="#" aria-label="MHALHO home">MHALHO</a>
+<a href="#visit">Visit the Boutique</a><button id="open-saved" type="button">Saved <span id="count">0</span></button>
+</nav></header>
+<main>
+<section class="hero" aria-labelledby="hero-title">
+<div class="hero-copy">
+<img class="logo" src="media/0.jpg" width="920" height="850" alt="Mhlahlo — Wigs & Hair Extensions" style="mix-blend-mode:multiply">
+<h1 id="hero-title">Find your <em>signature look.</em></h1>
+<p>Wigs and hair extensions in Sandton, South Africa.</p>
+<div class="hero-actions"><a class="button" href="#collection">Explore the collection <span aria-hidden="true">↗</span></a><a class="button whatsapp" href="https://wa.me/27769655453" target="_blank" rel="noopener noreferrer">WhatsApp us <span aria-hidden="true">↗</span></a></div>
+</div>
+<figure class="hero-visual"><img src="media/14.jpg" alt="Long black wig with layered, sweeping waves" fetchpriority="high"><figcaption>THE MHALHO COLLECTION</figcaption></figure>
+</section>
+<section id="collection" class="section wrap">
+<div class="section-heading"><div><p class="kicker">THE WIG COLLECTION</p><h2>Shop by style</h2></div><p>Explore the collection and message us on WhatsApp to order or confirm prices and availability.</p></div>
+<div class="filters" aria-label="Filter by style"></div>
+<div class="products" id="products"></div>
+</section>
+<section id="lookbook" class="section lookbook"><div class="wrap">
+<div class="section-heading"><div><p class="kicker">THE LOOKBOOK</p><h2>Hair in motion</h2></div><p>Watch the clips for a closer look at the styles.</p></div>
+<div class="film"><video id="film" controls playsinline preload="none" poster="media/15.jpg" src="media/video-1.mp4" aria-label="Lookbook video"></video></div>
+<div id="clips" class="filters" aria-label="Choose a lookbook clip"></div>
+</div></section>
+<section id="visit" class="section wrap visit">
+<div><p class="kicker">SANDTON, SOUTH AFRICA</p><h2>Visit the boutique</h2><p>Message us on WhatsApp to order, check availability or ask about hair extensions.</p></div>
+<div><address>Nelson Mandela Square – Legacy Retail<br>Shop U404 (Shop 404), Level 4<br>Da Vinci Hotel &amp; Suites<br>Nelson Mandela Square, Sandton, Gauteng<br>South Africa, 2031</address>
+<div class="visit-actions"><a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Da+Vinci+Hotel+%26+Suites+Nelson+Mandela+Square+Sandton" target="_blank" rel="noopener">Get directions <span aria-hidden="true">↗</span></a><a class="button whatsapp" href="https://wa.me/27769655453" target="_blank" rel="noopener noreferrer">WhatsApp +27 76 965 5453 <span aria-hidden="true">↗</span></a></div>
+<div class="contact-links" aria-label="Social media and contact">
+<a class="contact-link" href="https://www.instagram.com/mhlahlo_wigs/" target="_blank" rel="noopener noreferrer"><strong>Instagram</strong><span>@Mhlahlo_wigs</span></a>
+<a class="contact-link" href="https://www.facebook.com/people/Mhlahlo-Hair-Beauty/61568297357129/" target="_blank" rel="noopener noreferrer"><strong>Facebook</strong><span>Mhlahlo wigs</span></a>
+<a class="contact-link" href="https://www.tiktok.com/search/user?q=Mhlahlo%20Wigs%20%26%20Hair%20Extensions" target="_blank" rel="noopener noreferrer"><strong>Find us on TikTok</strong><span>Mhlahlo Wigs &amp; Hair Extensions</span></a>
+</div></div>
+</section>
+</main>
+<footer><div class="wrap"><a href="#" class="wordmark">MHALHO</a><span>Wigs &amp; Hair Extensions · Sandton</span><a href="#collection">The Collection ↑</a></div></footer>
+<dialog id="details" aria-labelledby="detail-title"><form method="dialog"><button class="close" aria-label="Close product details">×</button></form><div id="detail-content"></div></dialog>
+<dialog id="saved" aria-labelledby="saved-title"><form method="dialog"><button class="close" aria-label="Close saved styles">×</button></form><h2 id="saved-title">Saved styles</h2><div id="saved-content"></div><a href="#visit" id="saved-visit" class="button">Visit the boutique ↗</a></dialog>
+</body></html>
+
